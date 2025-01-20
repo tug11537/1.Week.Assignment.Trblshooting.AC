@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troubleshooting 1 | MUST 4707</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<h1>Troubleshooting 1 | MUST 4707</h1>
+
+<h2>Finding Errors in Existing Code and Fixing Them</h2>
+<p>In this assignment, you will update the file <code>script.js</code> and commit it to your assignment repository. Your updated version of <code>script.js</code> should run without any errors. The object <code>mySuperNeatoObject</code> should have all of the proper syntax required of an object. If it does, it will export properly and your code will pass all of the tests.</p>
+
+<h3>Troubleshooting</h3>
+<p>Troubleshooting is the process of identifying, diagnosing, and resolving issues or problems in a system, device, software, or any complex situation. It involves systematically analyzing the symptoms, investigating potential causes, and implementing solutions to restore normal functionality or achieve the desired outcome. Troubleshooting is a critical skill used in various fields, including technology, engineering, and everyday problem-solving, to address and fix problems efficiently.</p>
+
+<h3>Accessing the Assignment Materials</h3>
+<ol>
+    <li>Navigate to the assignment repository in the course <a href="https://github.com/MUST4707">GitHub organization</a></li>
+    <li>Click on the green <code>Use this template</code> button in the top right corner.</li>
+    <li>Choose 'Create a new repository'</li>
+    <li>Set up the repo name under your account.</li>
+    <li>Click <code>Create repository</code></li>
+</ol>
+<p><em>You should now be at your own personal repository with the assignment materials.</em></p>
+<ol start="6">
+    <li>Click on the green <code>&lt;&gt; Code</code> button and select <code>Open with GitHub Desktop</code></li>
+</ol>
+<p><em>You should now be in your GitHub Desktop application that has a pop-up window called 'Clone a Repository'</em></p>
+<ol start="7">
+    <li>Make sure the local path is where you would like to save this repo.</li>
+    <li>Hit <code>Clone</code></li>
+    <li>You should now click the <code>Open in Visual Studio Code</code> button or navigate to your files and open the folder in Visual Studio Code.</li>
+    <li>After you finish working on your project please return to GitHub Desktop and
+        <ol type="a">
+            <li>Commit your changes to the <code>master</code> (don’t forget to add a summary description)</li>
+            <li>Click on the <code>Push Origin</code> to sync your commit with the GitHub cloud.</li>
+        </ol>
+    </li>
+</ol>
+
+<h3>Task Description</h3>
+<ol>
+    <li>The provided <code>script.js</code> contains an object called <code>mySuperNeatoObject</code> but there are some coding errors.</li>
+    <li>Figure out what is wrong with the code and fix it!</li>
+    <li>After fixing the errors in the code, make sure it meets the requirements listed below and passes the provided tests.</li>
+</ol>
+
+<h3>Coding Instructions</h3>
+<p>You will edit your code between these comments in <code>script.js</code>:</p>
+<pre>
+<code>//↓↓↓↓↓↓↓↓↓↓↓↓TROUBLESHOOT the code  below here↓↓↓↓↓↓↓↓↓↓↓↓
+const mySuperNeatoObject = {
+   type: "gadget"
+   hasWiFi: false
+}
+
+}
+//↑↑↑↑↑↑↑↑↑↑YOUR CODE goes above here↑↑↑↑↑↑↑↑↑↑
+</code>
+    </pre>
+
+<h3>Testing Your Work</h3>
+<h4>Testing (Using VS Code and Your Browser)</h4>
+<ol>
+    <li>Make sure you have saved all of your files, then click on the <code>index.html</code> file.</li>
+    <li>Click on "Go Live".</li>
+    <li>Once the browser window opens with the assignment webpage, open the JavaScript Console.</li>
+    <li>Run the following test to make sure there are no errors:
+        <ol>
+            <li>Test 1: <code>mySuperNeatoObject</code>
+                <ul>
+                    <li>The result should be <code>{type: "gadget" ...... and so on}</code>.</li>
+                </ul>
+            </li>
+            <li>Test 2: <code>typeof mySuperNeatoObject</code>
+                <ul>
+                    <li>Result: <code>'object'</code>.</li>
+                </ul>
+            </li>
+            <li>Test 3: <code>mySuperNeatoObject.type</code>
+                <ul>
+                    <li>Result: <code>'gadget'</code>.</li>
+                </ul>
+            </li>
+            <li>Test 4: <code>typeof mySuperNeatoObject.type</code>
+                <ul>
+                    <li>Result: <code>'string'</code>.</li>
+                </ul>
+            </li>
+            <li>Test 5: <code>mySuperNeatoObject.hasWiFi</code>
+                <ul>
+                    <li>Result: <code>false</code>.</li>
+                </ul>
+            </li>
+            <li>Test 6: <code>typeof mySuperNeatoObject.hasWiFi</code>
+                <ul>
+                    <li>Result: <code>'boolean'</code>.</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+</ol>
+<p><em>If any of the above commands return an error or an unexpected result, please return to your code and update it to fix the error. Repeat this process until there are no errors.</em></p>
+
+<h3>Submission (Commit)</h3>
+<ol>
+    <li>Upload your updated <code>script.js</code> to the git by uploading the file or saving the changes you made in the browser.</li>
+</ol>
+
+<h3>Grading Criteria</h3>
+<p>The following criteria will be checked:</p>
+<ol>
+    <li><code>mySuperNeatoObject</code> exists.</li>
+    <li><code>mySuperNeatoObject</code> is an <code>'object'</code>.</li>
+    <li>The <code>type</code> property exists.</li>
+    <li>The <code>type</code> property type is a <code>'string'</code>.</li>
+    <li>The <code>hasWiFi</code> property exists.</li>
+    <li>The <code>hasWiFi</code> property type is a <code>'boolean'</code>.</li>
+</ol>
+</body>
+</html>
